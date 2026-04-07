@@ -10,7 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.5
-  # Přidej další závislosti, pokud je používáš
   shared_preferences: ^2.2.0
   provider: ^6.1.5
 
@@ -22,6 +21,4 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  assets:
-    # Zde můžeš přidat své obrázky nebo jiné assety
-    # - assets/images/
+  assets: [] # <-- prázdný seznam místo null
