@@ -1,20 +1,27 @@
 name: denni_evidence
-description: Aplikace pro evidenci dne
-publish_to: 'none'
+description: A simple Flutter app for daily task tracking
+publish_to: "none" # Tento projekt nebude publikován na pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.5.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.5
+  # Přidej další závislosti, pokud je používáš
+  shared_preferences: ^2.2.0
+  provider: ^6.1.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+    # Zde můžeš přidat své obrázky nebo jiné assety
+    # - assets/images/
